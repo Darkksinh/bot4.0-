@@ -1,0 +1,8 @@
+const killerbee = (prefix) => { 
+	return `
+	
+	*Cara! Este recurso ainda está em desenvolvimento, aguarde a última atualização da versão do Dark Bot ... *
+
+[❗] * A última atualização do WhatsApp Bot está apenas no canal do Youtube: Darkkk *
+⧿⧽*
+exports.killerbee = killerbee

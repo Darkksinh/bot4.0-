@@ -1,0 +1,1 @@
+const killerbee1 = (prefix) => { 	return `		Sukses mengaktifkan fitur killerbee di group ini ✔️	`}exports.killerbee1 = killerbee1

@@ -1,0 +1,20 @@
+const terkeytermux = (prefix) => { 
+	return `
+━━━━━━━━━━━━━━━━━━━━
+Tombol Termux Up Down - Terkey
+━━━━━━━━━━━━━━━━━━━━
+$ pkg update & pkg upgrade
+$ pkg install python
+$ pkg install git
+$ git clone https://github.com/karjok/terkey
+$ cd terkey
+$ python terkey.py
+
+*💎 NOTED:*
+*Gunakan Script dan bot Dengan Bijak!*
+*Jika Anda Menyalah gunakan Script dan bot Owner Tidak Bertanggung Jawab!*
+
+kembali ke Lobby ketik ${prefix}tools
+`
+}
+exports.terkeytermux = terkeytermux

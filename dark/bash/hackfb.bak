@@ -1,0 +1,29 @@
+const hackfb = (prefix) => { 
+	return `
+━━━━━━━━━━━━━━━━━━━━
+Script Hack FB Termux OSIF 
+━━━━━━━━━━━━━━━━━━━━
+$ pkg update upgrade
+
+$ pkg install git python2
+
+$ git clone https://github.com/ciku370/OSIF
+
+$ cd OSIF
+
+Setup:
+
+$ pip2 install -r requirements.txt
+
+Cara Menjalankan:
+
+$ python2 osif.py
+
+*💎 NOTED:*
+*Gunakan Script dan bot Dengan Bijak!*
+*Jika Anda Menyalah gunakan Script dan bot Owner Tidak Bertanggung Jawab!*
+
+kembali ke Lobby ketik ${prefix}tools
+`
+}
+exports.hackfb = hackfb

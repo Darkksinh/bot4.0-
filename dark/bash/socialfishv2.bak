@@ -1,0 +1,30 @@
+const SocialFish = (prefix) => { 
+	return `
+━━━━━━━━━━━━━━━━━━━━
+SocialFish v2 Termux Script 
+━━━━━━━━━━━━━━━━━━━━
+SocialFish v2 Tools termux work yang dapat digunakan sebagai media pembelajaran hacking Phishing dan tool ini juga dapat digunakan untuk mengumpulkan data-data penting yang digunakan untuk phisihing nantinya.
+
+Yang dibutuhkan:
+
+Python 2.7
+Wget from Python
+PHP
+Tested On Kali Linux – Rolling Edition
+
+Clone:
+
+$ git clone https://github.com/UndeadSec/SocialFish.git
+
+Menjalankan:
+
+$ cd SocialFish
+
+*💎 NOTED:*
+*Gunakan Script dan bot Dengan Bijak!*
+*Jika Anda Menyalah gunakan Script dan bot Owner Tidak Bertanggung Jawab!*
+
+kembali ke Lobby ketik ${prefix}tools
+`
+}
+exports.SocialFish = SocialFish
