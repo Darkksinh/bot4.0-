@@ -1,6 +1,8 @@
-const help = (prefix) => {
+const help = () => { 
 	return `
 ╔══✪〘 INFO 〙✪══
+║
+╠OLA 
 ║
 ╠➥ 𝐃𝐀𝐑𝐊 𝐁𝐎𝐓
 ╠➥ *3.2*
@@ -210,7 +212,7 @@ const help = (prefix) => {
 ║
 ╠══NOTA »
 ║menu completo em .msc
-╠════════════════════
+╠══════════════════
 ║
 ║160 *${prefix}hylander*
 ║161 *${prefix}nikeb*
@@ -222,27 +224,37 @@ const help = (prefix) => {
 ║167 *${prefix}m4*
 ║168 *${prefix}cmgremio*
 ║169 *${prefix}cmflamengo*
+║170 *${prefix}mercury*
+║171 *${prefix}ponta*
+║172 *${prefix}moça*
+║173 *${prefix}nav*
+║174 *${prefix}dama*
+║175 *${prefix}remedy*
+║176 *${prefix}cavala*
+║177 *${prefix}facetime*
+║178 *${prefix}pe*
+║179 *${prefix}nike12*
 ║
 ║
 ╠══✪〘 HACKER MENU 〙✪══
 ║
-║170 *${prefix}fbcheker*
-║171 *${prefix}hackfb*
-║172 *${prefix}bruteforcefb*
-║173 *${prefix}toolsphishing*
-║174 *${prefix}terkeytermux*
-║175 *${prefix}socialfishv2*
-║176 *${prefix}tool*
+║180 *${prefix}fbcheker*
+║181 *${prefix}hackfb*
+║182 *${prefix}bruteforcefb*
+║183 *${prefix}toolsphishing*
+║184 *${prefix}terkeytermux*
+║185 *${prefix}socialfishv2*
+║186 *${prefix}tool*
 ║
 ╠══✪〘 STICKER MENU 〙✪══
 ║
-║177 *${prefix}animecry* 
-║178 *${prefix}hubgif*
-║179 *${prefix}blowgif* 🔞
-║180 *${prefix}shota*
-║181 *${prefix}hentaifig* 🔞
-║182 *${prefix}nekofig* 🔞
-║183 *${prefix}lolifig*
+║187 *${prefix}animecry* 
+║188 *${prefix}hubgif*
+║189 *${prefix}blowgif* 🔞
+║190 *${prefix}shota*
+║191 *${prefix}hentaifig* 🔞
+║192 *${prefix}nekofig* 🔞
+║193 *${prefix}lolifig*
 ║
 ╠══✪〘 INTERATIVOS 〙✪══
 ║
@@ -250,17 +262,18 @@ const help = (prefix) => {
 ║Mandar a msg sem o prefixo
 ╠════════════════════
 ║
-║184 *bah*
-║185 *oii*
-║186 *bv*
-║187 *canta ai bot*
-║188 *grita*
-║189 *digita*
-║190 *machista*
+║194 *bah*
+║195 *oii*
+║196 *bv*
+║197 *canta ai bot*
+║198 *grita*
+║199 *digita*
+║200 *machista*
 ║
 ╠══✪〘 OUTROS /3 〙✪══
 ║
-║191 *${prefix}atris* 🔞
+║201 *${prefix}atris* 🔞
+║202 *${prefix}animemenu*
 ║
 ╠══✪〘 CMDS DE VÍDEO 〙✪══
 ║
@@ -268,31 +281,67 @@ const help = (prefix) => {
 ║_*Say Cat*_
 ╠════════
 ║
-║192 *${prefix}say1*
-║193 *${prefix}say2*
-║194 *${prefix}say3*
-║195 *${prefix}say4*
+║203 *${prefix}say1*
+║204 *${prefix}say2*
+║205 *${prefix}say3*
+║206 *${prefix}say4*
 ║
 ╠══EDITS »
 ║_*XXXTENTACIONS*_
 ╠═══════════════
 ║
-║196 *${prefix}xxx1*
-║197 *${prefix}xxx2*
+║207 *${prefix}xxx1*
+║208 *${prefix}xxx2*
 ║
 ╠══EDITS »
 ║_*VARIADAS*_
 ╠═══════════════
 ║
-║198 *${prefix}teto1*
-║199 *${prefix}edit1*
-║200 *${prefix}edit2*
-║201 *${prefix}edit3*
-║202 *${prefix}edit4*
+║209 *${prefix}teto1*
+║210 *${prefix}edit1*
+║211 *${prefix}edit2*
+║212 *${prefix}edit3*
+║213 *${prefix}edit4*
 ╠═══════════════
 ║
-║ *MAIS COMANDOS*
-║ *PRÓXIMA ATT*
+╠══✪〘 CONSULTAS E OUTROS 〙✪══
+║
+║
+║214 *${prefix}iplog (ip)* [consulta ip]
+║215 *${prefix}cpfg* [bot gera cpf]
+║216 *${prefix}bcep (cep)* [consulta cep]
+║
+╠══✪〘 APIS DO DARK 〙✪══
+║
+║ *Aguarde a próxima att*
+║
+╠══✪〘 LOGOS 〙✪══
+║
+║217 *${prefix}pslogo (seu texto)*
+║218 *${prefix}milogo (seu texto)*
+║219 *${prefix}aguia (seu texto)*
+║220 *${prefix}monkey (seu texto)*
+║221 *${prefix}dnulis (seu texto)*
+║222 *${prefix}dmeme (seu texto)*
+║223 *${prefix}dnobg (seu texto)*
+║224 *${prefix}dnobg2 (seu texto/seu texto)*
+║225 *${prefix}tlogo (seu texto)*
+║226 *${prefix}nlogo (seu texto)*
+║227 *${prefix}black (seu texto)*
+║228 *${prefix}clogo (seu texto)*
+║229 *${prefix}glogo (seu texto/seu texto)*
+║230 *${prefix}aguia2 (seu texto/seu texto)*
+║231 *${prefix}wlogo (seu texto)*
+║232 *${prefix}letxt (seu texto)*
+║233 *${prefix}text3d (seu texto)*
+║234 *${prefix}amor (tamanho/blush)* [numeros]
+║235 *${prefix}frase (seu texto/seu texto)*
+║236 *${prefix}canal (seu texto)*
+║237 *${prefix}plogo (seu texto)* [plaquinha]
+║
+║
+║ *TODAS AS APIS*
+║ *DAQ TBM SAO DO DARK*
 ║
 ╠══✪〘 𝗗𝗢𝗡𝗢 〙✪══
 ║
@@ -304,6 +353,7 @@ const help = (prefix) => {
 ║  *"Peita ou respeita 🐊🚩*
 ║  *"kibadores, vão se fuder"*
 ║
+║ *${prefix}dono1* para mais info
 ║
 ╚═〘 𝐃𝐀𝐑𝐊 𝐁𝐎𝐓 〙`
 }
