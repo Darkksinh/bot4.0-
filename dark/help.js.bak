@@ -1,6 +1,8 @@
-const help = (prefix) => {
+const help = () => { 
 	return `
 ╔══✪〘 INFO 〙✪══
+║
+╠OLA 
 ║
 ╠➥ 𝐃𝐀𝐑𝐊 𝐁𝐎𝐓
 ╠➥ *3.2*
@@ -210,7 +212,7 @@ const help = (prefix) => {
 ║
 ╠══NOTA »
 ║menu completo em .msc
-╠════════════════════
+╠══════════════════
 ║
 ║160 *${prefix}hylander*
 ║161 *${prefix}nikeb*
@@ -222,6 +224,15 @@ const help = (prefix) => {
 ║167 *${prefix}m4*
 ║168 *${prefix}cmgremio*
 ║169 *${prefix}cmflamengo*
+║170 *${prefix}mercury*
+║171 *${prefix}ponta*
+║172 *${prefix}moça*
+║173 *${prefix}nav*
+║174 *${prefix}dama*
+║175 *${prefix}remedy*
+║176 *${prefix}cavala*
+║177 *${prefix}facetime*
+║178 *${prefix}pe*
 ║
 ║
 ╠══✪〘 HACKER MENU 〙✪══
@@ -261,6 +272,7 @@ const help = (prefix) => {
 ╠══✪〘 OUTROS /3 〙✪══
 ║
 ║191 *${prefix}atris* 🔞
+║192 *${prefix}animemenu*
 ║
 ╠══✪〘 CMDS DE VÍDEO 〙✪══
 ║
@@ -287,6 +299,48 @@ const help = (prefix) => {
 ║198 *${prefix}teto1*
 ║199 *${prefix}edit1*
 ║200 *${prefix}edit2*
+║201 *${prefix}edit3*
+║202 *${prefix}edit4*
+╠═══════════════
+║
+╠══✪〘 CONSULTAS E OUTROS 〙✪══
+║
+║
+║203 *${prefix}iplog (ip)* [consulta ip]
+║204 *${prefix}cpfg* [bot gera cpf]
+║204 *${prefix}bcep (cep)* [consulta cep]
+║
+╠══✪〘 APIS DO DARK 〙✪══
+║
+║ *Aguarde a próxima att*
+║
+╠══✪〘 LOGOS 〙✪══
+║
+║205 *${prefix}pslogo (seu texto)*
+║206 *${prefix}milogo (seu texto)*
+║207 *${prefix}aguia (seu texto)*
+║208 *${prefix}monkey (seu texto)*
+║209 *${prefix}dnulis (seu texto)*
+║210 *${prefix}dmeme (seu texto)*
+║211 *${prefix}dnobg (seu texto)*
+║212 *${prefix}dnobg2 (seu texto/seu texto)*
+║213 *${prefix}tlogo (seu texto)*
+║214 *${prefix}nlogo (seu texto)*
+║215 *${prefix}black (seu texto)*
+║216 *${prefix}clogo (seu texto)*
+║217 *${prefix}glogo (seu texto/seu texto)*
+║218 *${prefix}aguia2 (seu texto/seu texto)*
+║219 *${prefix}wlogo (seu texto)*
+║220 *${prefix}letxt (seu texto)*
+║221 *${prefix}text3d (seu texto)*
+║222 *${prefix}amor (tamanho/blush)* [numeros]
+║223 *${prefix}frase (seu texto/seu texto)*
+║224 *${prefix}canal (seu texto)*
+║225 *${prefix}plogo (seu texto)* [plaquinha]
+║
+║
+║ *TODAS AS APIS*
+║ *DAQ TBM SAO DO DARK*
 ║
 ╠══✪〘 𝗗𝗢𝗡𝗢 〙✪══
 ║
@@ -298,6 +352,7 @@ const help = (prefix) => {
 ║  *"Peita ou respeita 🐊🚩*
 ║  *"kibadores, vão se fuder"*
 ║
+║ *${prefix}dono1* para mais info
 ║
 ╚═〘 𝐃𝐀𝐑𝐊 𝐁𝐎𝐓 〙`
 }
