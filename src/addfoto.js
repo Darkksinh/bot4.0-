@@ -1,11 +1,11 @@
 const addfoto = () => { 
 	return `
 	
-	*ADICIONAR BASE DE DADOS FOTO*
+	*ADICIONE FOTOS DE BANCO DE DADOS*
 	
-	FOTOS COM SUCESSO SALVADAS NOS DADOS!
+	FOTOS DE SUCESSO SALVADAS NOS DADOS!
 	
 
-obrigado !`
+Obrigado !`
 }
 exports.addfoto = addfoto
